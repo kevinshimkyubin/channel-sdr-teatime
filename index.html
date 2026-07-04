@@ -159,6 +159,23 @@
   }
   footer .cta:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(79,124,255,.42)}
   footer .fine{opacity:.8}
+  .sig{
+    max-width:360px;margin:0 auto 28px;
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    box-shadow:var(--shadow);
+    padding:22px 24px;text-align:left;display:flex;gap:16px;align-items:center;
+  }
+  .sig .avatar{
+    flex:0 0 46px;height:46px;border-radius:12px;
+    background:linear-gradient(135deg,#4f7cff,#8a4dff);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:19px;
+  }
+  .sig .info{flex:1;min-width:0;line-height:1.5}
+  .sig .name{font-size:16px;font-weight:800;color:var(--ink)}
+  .sig .name .en{font-size:12.5px;font-weight:600;color:var(--gray);margin-left:6px}
+  .sig .role{font-size:12.5px;color:var(--blue);font-weight:700;margin-top:2px}
+  .sig .meta{font-size:12px;color:var(--gray);margin-top:8px}
+  .sig .meta a{color:var(--ink);font-weight:700;text-decoration:none}
 
   @media (max-width:520px){
     .hero h1{font-size:25px}
@@ -355,6 +372,18 @@
   </div>
 
   <footer>
+    <div class="sig">
+      <div class="avatar">K</div>
+      <div class="info">
+        <div class="name">심규빈<span class="en">Kevin Kyubin Shim</span></div>
+        <div class="role">Inside Sales Representative · IS Team</div>
+        <div class="meta">
+          Channel Corp. 채널 코퍼레이션<br>
+          서울시 강남구 논현로 508 GS강남타워 7층<br>
+          Mobile <a href="tel:+821072119244">+82 10-7211-9244</a>
+        </div>
+      </div>
+    </div>
     <a class="cta" href="https://channel.io/kr" target="_blank" rel="noopener">채널톡 더 알아보기 →</a>
     <div class="fine">궁금한 건 티타임에서 편하게 물어보세요 ☕<br>ⓒ Channel Corp. — SDR Team</div>
   </footer>
